@@ -11,6 +11,7 @@ connectDb();
 
 //Routes
 const students = require('./routes/student.routes');
+const teachers = require('./routes/teacher.routes');
 
 const app = express();
 //Body parser
@@ -32,7 +33,7 @@ app.get('/', (req, res) => {
   res.send('<h1>Welcome To Classhub</h1>')
 });
 app.use('/api/v1/students', students);
-
+app.use('/api/v1/teachers', teachers);
 //Error Handling
 app.use(errorHandler);
 
