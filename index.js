@@ -10,7 +10,7 @@ const errorHandler = require('./middlewares/error.middleware');
 connectDb();
 
 //Routes
-
+const students = require('./routes/student.routes');
 
 const app = express();
 //Body parser
@@ -31,7 +31,7 @@ app.use(helmet());
 app.get('/', (req, res) => {
   res.send('<h1>Welcome To Classhub</h1>')
 });
-
+app.use('/api/v1/students', students);
 
 //Error Handling
 app.use(errorHandler);
