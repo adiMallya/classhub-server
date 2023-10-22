@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f01",
+        "name": "Class 6",
+        "roomNum": 101
+    },
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f02",
+        "name": "Class 10",
+        "roomNum": 102
+    },
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f03",
+        "name": "Class 8",
+        "roomNum": 103
+    }
+]

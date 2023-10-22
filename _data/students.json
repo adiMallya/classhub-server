@@ -1,0 +1,29 @@
+[
+    {
+        "firstName": "Alice",
+        "lastName": "Brown",
+        "dateOfBirth": "2008-08-10",
+        "gender": "Female",
+        "class": "5f8f7dcaf9ae4826ef449f01",
+        "attendance": 90,
+        "marks": 85
+    },
+    {
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "dateOfBirth": "2007-05-12",
+        "gender": "Male",
+        "class": "5f8f7dcaf9ae4826ef449f02",
+        "attendance": 95,
+        "marks": 78
+    },
+    {
+        "firstName": "Charlie",
+        "lastName": "Johnson",
+        "dateOfBirth": "2009-10-15",
+        "gender": "Male",
+        "class": "5f8f7dcaf9ae4826ef449f03",
+        "attendance": 88,
+        "marks": 92
+    }
+]

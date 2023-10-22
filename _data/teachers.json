@@ -1,0 +1,14 @@
+[
+    {
+        "firstName": "Diana",
+        "lastName": "Williams",
+        "subject": "Mathematics",
+        "classes": ["5f8f7dcaf9ae4826ef449f01", "5f8f7dcaf9ae4826ef449f02"]
+    },
+    {
+        "firstName": "Edward",
+        "lastName": "Jones",
+        "subject": "Chemistry",
+        "classes": ["5f8f7dcaf9ae4826ef449f02", "5f8f7dcaf9ae4826ef449f03"]
+    }
+]
