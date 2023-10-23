@@ -37,7 +37,7 @@ exports.createTeacher = async (teacherDetail) => {
 
 exports.updateTeacher = async (teacherId, fieldsToUpdate) => {
   try {
-    const teacher = await Student.findByIdAndUpdate(teacherId, fieldsToUpdate, {
+    const teacher = await Teacher.findByIdAndUpdate(teacherId, fieldsToUpdate, {
     new: true,
     runValidators: true
     }).populate('classes', 'name');
