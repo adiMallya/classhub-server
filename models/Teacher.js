@@ -14,11 +14,17 @@ const TeacherSchema = new mongoose.Schema({
     enum: ["Mathematics", "Physics", "Chemistry", "Biology", "History/Civics", "Geography", "Computer Science", "English", "Hindi", "French", "Physical Development"],
     required: [true, "Subject is required"]
   },
-  classes: [{
-     type: mongoose.Schema.Types.ObjectId,
-     ref: 'Class',
-    required: [true, "Teacher must be assigned to a class"]
-  }]
+  classes: {
+    type: [{
+         type: mongoose.Schema.Types.ObjectId,
+         ref: 'Class',
+      }],
+    validate: [arrayLimit, '{PATH} requires at least one class assigned.']
+  }
 });
+
+function arrayLimit(val) {
+  return val.length > 0;
+}
 
 module.exports = mongoose.model('Teacher', TeacherSchema); 
