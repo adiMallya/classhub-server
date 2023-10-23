@@ -12,6 +12,7 @@ connectDb();
 //Routes
 const students = require('./routes/student.routes');
 const teachers = require('./routes/teacher.routes');
+const classes = require('./routes/class.routes');
 
 const app = express();
 //Body parser
@@ -34,6 +35,7 @@ app.get('/', (req, res) => {
 });
 app.use('/api/v1/students', students);
 app.use('/api/v1/teachers', teachers);
+app.use('/api/v1/class', classes);
 //Error Handling
 app.use(errorHandler);
 
