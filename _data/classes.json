@@ -1,4 +1,14 @@
-[
+[  
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f00",
+        "name": "Class 4",
+        "roomNum": 100
+    },
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f04",
+        "name": "Class 5",
+        "roomNum": 99
+    },
     {
         "_id": "5f8f7dcaf9ae4826ef449f01",
         "name": "Class 6",
@@ -13,5 +23,15 @@
         "_id": "5f8f7dcaf9ae4826ef449f03",
         "name": "Class 8",
         "roomNum": 103
+    },
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f06",
+        "name": "Class 9",
+        "roomNum": 98
+    },
+    {
+        "_id": "5f8f7dcaf9ae4826ef449f05",
+        "name": "Class 7",
+        "roomNum": 95
     }
 ]

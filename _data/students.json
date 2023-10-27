@@ -25,5 +25,32 @@
         "class": "5f8f7dcaf9ae4826ef449f03",
         "attendance": 88,
         "marks": 92
-    }
+    },
+  {
+      "firstName": "Anjali",
+      "lastName": "Tewari",
+      "dateOfBirth": "2010-01-30",
+      "gender": "Female",
+      "class": "5f8f7dcaf9ae4826ef449f02",
+      "attendance": 67,
+      "marks": 88
+  },
+  {
+      "firstName": "Velu",
+      "lastName": "Naicker",
+      "dateOfBirth": "2018-10-25",
+      "gender": "Male",
+      "class": "5f8f7dcaf9ae4826ef449f01",
+      "attendance": 90,
+      "marks": 85
+  },
+  {
+      "firstName": "Prateek",
+      "lastName": "Joshi",
+      "dateOfBirth": "2023-10-17",
+      "gender": "Male",
+      "class": "5f8f7dcaf9ae4826ef449f03",
+      "attendance": 80,
+      "marks": 55
+  }
 ]
