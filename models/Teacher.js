@@ -14,6 +14,11 @@ const TeacherSchema = new mongoose.Schema({
     enum: ["Mathematics", "Physics", "Chemistry", "Biology", "History/Civics", "Geography", "Computer Science", "English", "Hindi", "French", "Physical Development"],
     required: [true, "Subject is required"]
   },
+  phoneNumber: {
+    type: Number,
+    required: [true, "Phone number is required"],
+    unique: true
+  },
   classes: {
     type: [{
          type: mongoose.Schema.Types.ObjectId,
