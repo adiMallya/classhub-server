@@ -15,9 +15,9 @@ exports.getClasses = async () => {
 exports.getClassMembers = async (classId, memberType) => {
   try{
     if(memberType === 'students'){
-      return await Student.find({ class: classId });
+      return await Student.find({ class: classId }).populate('class', 'name');
     }else if(memberType === 'teachers'){
-      return await Teacher.find({ classes: classId });
+      return await Teacher.find({ classes: classId }).populate('classes', 'name');
     }else{
       throw new ErrorResponse(`Query parameter 'type' must be either 'students' or 'teachers'`, 400);
     }
